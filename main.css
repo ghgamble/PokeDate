@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: #ef5350;
+    padding: 60px;
+}
+
+.form-control {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
