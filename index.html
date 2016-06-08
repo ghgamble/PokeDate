@@ -12,7 +12,8 @@
     <div class="jumbotron">
      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png">
     </div>
-    <input type="search" class="form-control" id="search" placeholder="Enter your Pokemon" ng-model="dateCtrl.search" ng-submit="dateCtrl.getPokemon(dateCtrl.url)">
+    <input type="search" class="form-control" id="search" placeholder="Enter your Pokemon" ng-model="dateCtrl.search">
+    <input type="button" name="name" value="Search" ng-click="dateCtrl.getPokemon(dateCtrl.url)">
     <div class="pokemon">
       <div class="poke-detail row">
         <div class="poke-attributes col-md-2 col-md-offset-4">Pokemon</div>
